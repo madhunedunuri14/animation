@@ -8,28 +8,28 @@
     position:absolute;
     top:1;
     right:0;
-    animation:h1 0.5s ease infinite alternate; 
+    animation:h1 0.5s ease infinite ; 
 }
 
 .box2{
     position:absolute;
     top:1;
     left:0;
-    animation: h2 0.5s ease infinite alternate;
+    animation: h2 0.5s ease infinite ;
     
 }
 .box3{
     position:absolute;
     bottom:0;
     right:0;
-    animation: h3 0.5s ease infinite alternate;
+    animation: h3 0.5s ease infinite ;
     
 }
 .box4{
     position:absolute;
     bottom:0;
     right: o;
-    animation: h4 0.5s ease infinite alternate;
+    animation: h4 0.5s ease infinite ;
     
 }
 @keyframes h1{
