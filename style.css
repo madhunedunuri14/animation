@@ -1,0 +1,66 @@
+
+.box{
+    height:50px;
+    width:50px;
+
+}
+.box1{
+    position:absolute;
+    top:1;
+    right:0;
+    animation:h1 0.5s ease infinite alternate; 
+}
+
+.box2{
+    position:absolute;
+    top:1;
+    left:0;
+    animation: h2 0.5s ease infinite alternate;
+    
+}
+.box3{
+    position:absolute;
+    bottom:0;
+    right:0;
+    animation: h3 0.5s ease infinite alternate;
+    
+}
+.box4{
+    position:absolute;
+    bottom:0;
+    right: o;
+    animation: h4 0.5s ease infinite alternate;
+    
+}
+@keyframes h1{
+    from{
+        transform:translateX(0px);
+    }
+    to{
+        transform:translateX(-1485px);
+    }
+}
+@keyframes h2{
+    from{
+        transform:translatey(0px);
+    }
+    to{
+        transform:translatey(700px);
+    }
+}
+@keyframes h3{
+    from{
+        transform:translatey(0px);
+    }
+    to{
+        transform:translatey(-700px);
+    }
+}
+@keyframes h4{
+    from{
+        transform:translatex(0px);
+    }
+    to{
+        transform:translatex(1485px);
+    }
+}
